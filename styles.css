@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.nav {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.nav-left {
+
+}
+
+
+.nav-right {
+
+}
+
+.section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
