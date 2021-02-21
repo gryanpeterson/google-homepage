@@ -1,6 +1,22 @@
 body {
+    
     margin: 0;
     padding: 0;
+}
+
+a {
+font-style: normal;
+text-decoration: none;
+}
+
+a:visited {
+font-style: normal;
+color:black;
+}
+
+a:hover {
+font-style: normal;
+color:green;
 }
 
 .page {
@@ -10,25 +26,36 @@ body {
     height: 100vh;
 }
 
-.nav {
+.navmain {
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
 
-.nav-left {
+.navleft {
+padding: 10px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+.navright {
+padding: 10px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
 
 }
 
-
-.nav-right {
-
+.nav-link {
+padding: 5px;
 }
 
 .section {
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-bottom: 200px;
 }
 
 .button {
@@ -38,8 +65,26 @@ align-items: center;
 }
 
 .footer {
+background-color: #f2f2f2;
 display: flex;
+padding: 15px;
 flex-direction: row;
 justify-content: space-between;
 
+}
+
+.footerleft {
+
+}
+
+.footercenter {
+margin-right: 130px;
+}
+
+.footerright {
+
+}
+
+.footer-link {
+padding: 5px;
 }
